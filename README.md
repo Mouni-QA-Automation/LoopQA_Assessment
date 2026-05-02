@@ -141,9 +141,9 @@ Tag visible
 ---
 
 ## ⚠️ Assumptions
-- Login handled inside test (no storageState)
-- Single worker used for stability
-- Optimized locators using Playwright best practices
+- Login handled using fixtures
+- Runs in both Serial and parallel modes
+- Optimized locators using Playwright best practices like locator chaining
 
 
 
