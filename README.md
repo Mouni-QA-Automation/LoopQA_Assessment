@@ -23,7 +23,7 @@ The framework focuses on:
 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Mouni-QA-Automation/LoopQA_Assessment
 cd <project-folder>
 ```
 
@@ -61,6 +61,8 @@ npm run report
 .
 ├── pages/
 │ └── AppPage.ts
+|__ Fixtures/
+||___LoginFixture.ts 
 ├── tests/
 │ └── task-board.spec.ts
 ├── test-data/
