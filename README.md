@@ -58,15 +58,17 @@ npm run report
 ```
 
 ## 📁 Project Structure
+
+```
 .
 ├── pages/
-│ └── AppPage.ts
-|__ Fixtures/
-||___LoginFixture.ts 
+│   └── AppPage.ts
+├── fixtures/
+│   └── loginFixture.ts
 ├── tests/
-│ └── task-board.spec.ts
+│   └── task-board.spec.ts
 ├── test-data/
-│ └── taskscenarios.ts
+│   └── taskScenarios.ts
 ├── playwright.config.ts
 ├── package.json
 └── playwright-report/
